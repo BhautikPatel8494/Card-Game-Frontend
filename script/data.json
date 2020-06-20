@@ -58,9 +58,66 @@
       {
         "timeStamp": "2020-06-15T11:40:26.393Z",
         "totalMove": 13
+      },
+      {
+        "timeStamp": "2020-06-16T16:12:33.319Z",
+        "totalMove": 10
+      },
+      {
+        "timeStamp": "2020-06-16T16:13:32.367Z",
+        "totalMove": 12
       }
     ],
-    "cards": [],
+    "cards": [
+      {
+        "type": "mark",
+        "position": "unselected"
+      },
+      {
+        "type": "adam",
+        "position": "removed"
+      },
+      {
+        "type": "adam",
+        "position": "removed"
+      },
+      {
+        "type": "ahmet",
+        "position": "unselected"
+      },
+      {
+        "type": "andrew",
+        "position": "removed"
+      },
+      {
+        "type": "andrew",
+        "position": "removed"
+      },
+      {
+        "type": "david",
+        "position": "unselected"
+      },
+      {
+        "type": "michael",
+        "position": "unselected"
+      },
+      {
+        "type": "david",
+        "position": "unselected"
+      },
+      {
+        "type": "mark",
+        "position": "unselected"
+      },
+      {
+        "type": "ahmet",
+        "position": "unselected"
+      },
+      {
+        "type": "michael",
+        "position": "unselected"
+      }
+    ],
     "resumeGame": false,
     "totalMove": 0,
     "card": []
