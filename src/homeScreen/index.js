@@ -25,7 +25,7 @@ export class HomeScreen extends React.Component {
         this.clickMe = this.clickMe.bind(this);
     }
     async clickMe(email, password) {
-        await fetch("http://localhost:3100/email", {
+        await fetch("/email", {
             method: "POST",
             body: JSON.stringify({ email, password }),
             headers: {
