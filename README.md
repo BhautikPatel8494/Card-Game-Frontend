@@ -1,27 +1,28 @@
+# Card Game
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+For live demo click [here](https://react-memory-game-8494.herokuapp.com/).
+This Game using ReactJs as a Front-end and NodeJs as Back-end technology.
 
-install dependencies using this command
-  
+## Clone the project
 
-### `npm install`
+You can directly clone using this repo.
 
-## Available Scripts
+```bash
+git clone https://github.com/BhautikPatel8494/reactMemoryGame
+```
 
-  
+## Installation
 
-In the project directory, you can run:
+Use the package manager [npm](https://www.npmjs.com/) to install dependancies.
 
-  
+```bash
+npm install
+```
 
-### `npm start`
+## Start server
 
-  
-Backend running on [http://localhost:3100](http://localhost:3100).
-Runs the app in the development mode.<br  />
+Run this command to start Frontend and Backend server.
 
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-  
-
-The page will reload if you make edits.<br  />
+```bash
+npm start
+```
