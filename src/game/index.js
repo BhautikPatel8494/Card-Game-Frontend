@@ -104,7 +104,7 @@ export class MemoryGame extends React.Component {
 
   async addWin() {
     const totalMove = this.state.totalMove;
-    await fetch("/update-history", {
+    await fetch("/api/update-history", {
       method: "POST",
       body: JSON.stringify({ email: this.state.email, totalMove }),
       headers: {
@@ -255,7 +255,7 @@ export class MemoryGame extends React.Component {
         cancelButtonColor: '#d33',
       }).then(async function (isConfirm) {
         if (isConfirm) {
-          await fetch("/save-game", {
+          await fetch("/api/save-game", {
             method: "POST",
             body: JSON.stringify({ email, cards, isConfirm, totalMove }),
             headers: {

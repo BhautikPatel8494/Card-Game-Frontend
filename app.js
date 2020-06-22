@@ -49,7 +49,7 @@ app.get("/", (req, res) => {
   return res.status(200).json({ message: "Hello World" });
 });
 
-app.post("/email", (req, res) => {
+app.post("/api/email", (req, res) => {
   const { email, password } = req.body;
   if (email && password) {
     readFile((data) => {
@@ -75,7 +75,7 @@ app.post("/email", (req, res) => {
   }
 });
 
-app.post("/update-history", (req, res) => {
+app.post("/api/update-history", (req, res) => {
   const { email, totalMove } = req.body;
   readFile((data) => {
     let userData = data[`${email}`];
@@ -101,7 +101,7 @@ app.post("/update-history", (req, res) => {
   });
 });
 
-app.post("/save-game", (req, res) => {
+app.post("/api/save-game", (req, res) => {
   const { email, cards, isConfirm, totalMove } = req.body;
   readFile((data) => {
     let userData = data[`${email}`];
